@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Work+Sans:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,500;0,600;1,700&family=Work+Sans:wght@400;700&display=swap');
+
+/* common css */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* navbar style starts */
+ nav{
+    width: 1440px;
+    margin: auto;
+    padding-top: 40px;
+ }
+.nav-imgs{
+    height: 20px;
+    width: 20px;
+}
+.nav-img{
+   height: 15px;
+   width: 15px;
+}
+
+.nav-section-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+ .list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.list li{
+    list-style: none;
+    color: #3A3A3A;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.list li a{
+     text-decoration: none;
+    color: #3A3A3A;
+    
+}
+.logo-title{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* header section style starts */
+.nav-header-img img{
+    background-image: url();
+}
